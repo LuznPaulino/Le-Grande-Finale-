@@ -4,7 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_MyScenes/Menu.unity
+    guid: dc6b53ea565741448a3706a91bcd27d9
+  - enabled: 1
+    path: Assets/_MyScenes/The Expedition.unity
+    guid: c6261d9a9ffa57c43ad93d5240e261cb
+  - enabled: 1
+    path: Assets/_MyScenes/The Hunt.unity
+    guid: c8bba8cccb3968d428f4b9d10b7ad6be
+  - enabled: 1
+    path: Assets/_MyScenes/You're Fired!.unity
+    guid: 32cc8cdd9d7fcf442b6a4e85d9feee3f
+  - enabled: 1
+    path: Assets/_MyScenes/Game Over!.unity
+    guid: 88952a58b9d6e9c45a51adcd2c24ee86
+  - enabled: 1
+    path: Assets/_MyScenes/Welcome Home.unity
+    guid: a84aaabd746b9bd43a4c62a0fb02fedf
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 98be066626573594cb40643881a61394, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f1fc62cd4099c044083fcb0f78b81a4c, type: 2}

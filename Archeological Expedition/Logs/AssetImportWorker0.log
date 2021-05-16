@@ -15,12 +15,12 @@ E:/GithHub/Le-Grande-Finale-/Archeological Expedition
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50317
+60870
 Successfully changed project path to: E:/GithHub/Le-Grande-Finale-/Archeological Expedition
 E:/GithHub/Le-Grande-Finale-/Archeological Expedition
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.47 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.84 ms.
+Refreshing native plugins compatible for Editor in 30.20 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.86 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/GithHub/Le-Grande-Finale-/Archeological Expedition/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001716 seconds.
+Registered in 0.001582 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.77 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 27.97 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.725 seconds
+- Completed reload, in  1.615 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001201 seconds.
+Registered in 0.001064 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.79 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 29.89 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,153 +63,185 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.861 seconds
+- Completed reload, in  0.809 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1653 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.9 MB.
-System memory in use after: 88.9 MB.
+System memory in use after: 89.0 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2115.
-Total: 1.891100 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.570700 ms  DeleteObjects: 0.082700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/_MyScripts/ProceduralTerrain.cs
-  artifactKey: Guid(63a491aedd0b4fc4baba8ce2a8c38065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyScripts/ProceduralTerrain.cs using Guid(63a491aedd0b4fc4baba8ce2a8c38065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d9bd61c6d02a1cea1ef5c1a7914b32') in 0.123059 seconds
-  Import took 0.125447 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001141 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\GithHub\Le-Grande-Finale-\Archeological Expedition\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\GithHub\Le-Grande-Finale-\Archeological Expedition\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2119.
-Total: 2.168600 ms (FindLiveObjects: 0.158100 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.905900 ms  DeleteObjects: 0.064600 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 2.031600 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.073300 ms MarkObjects: 1.589600 ms  DeleteObjects: 0.083200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11066.818424 seconds.
-  path: Assets/_MyScripts/ElevatorMovement.cs
-  artifactKey: Guid(ea24ac97648c3f24c9791d549f73ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyScripts/ElevatorMovement.cs using Guid(ea24ac97648c3f24c9791d549f73ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57efd4db1206dbd7fb82768c3dbb03e5') in 0.020490 seconds
-  Import took 0.024730 seconds .
+  path: Assets/_MyScenes/The Expedition.unity
+  artifactKey: Guid(c6261d9a9ffa57c43ad93d5240e261cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/The Expedition.unity using Guid(c6261d9a9ffa57c43ad93d5240e261cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8a015547ad599d6d438cd619fffed0') in 0.126312 seconds
+  Import took 0.128535 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001604 seconds.
-  path: Assets/_MyScripts/ElevatorMovement.cs
-  artifactKey: Guid(ea24ac97648c3f24c9791d549f73ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyScripts/ElevatorMovement.cs using Guid(ea24ac97648c3f24c9791d549f73ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57efd4db1206dbd7fb82768c3dbb03e5') in 0.011205 seconds
-  Import took 0.014191 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001202 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\GithHub\Le-Grande-Finale-\Archeological Expedition\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\GithHub\Le-Grande-Finale-\Archeological Expedition\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1635 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2124.
-Total: 1.664500 ms (FindLiveObjects: 0.135000 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.432500 ms  DeleteObjects: 0.054300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009780 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\GithHub\Le-Grande-Finale-\Archeological Expedition\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\GithHub\Le-Grande-Finale-\Archeological Expedition\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1635 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2128.
-Total: 2.461300 ms (FindLiveObjects: 0.351200 ms CreateObjectMapping: 0.090000 ms MarkObjects: 1.945700 ms  DeleteObjects: 0.073300 ms)
+  Time since last request: 10.079990 seconds.
+  path: Assets/_MyScenes/The Hunt.unity
+  artifactKey: Guid(c8bba8cccb3968d428f4b9d10b7ad6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/The Hunt.unity using Guid(c8bba8cccb3968d428f4b9d10b7ad6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442caf020ea97d304eb29c3eb65cbaef') in 0.015428 seconds
+  Import took 0.026121 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 933.571670 seconds.
-  path: Assets/_MyScripts/ButtonFunction.cs
-  artifactKey: Guid(2ee444adc875120499925b91134486c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MyScripts/ButtonFunction.cs using Guid(2ee444adc875120499925b91134486c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ad0acb6f5e89e4a12aa5c806d2501b') in 0.018743 seconds
-  Import took 0.021216 seconds .
+  Time since last request: 16.124684 seconds.
+  path: Assets/_MyScenes/Welcome Home.unity
+  artifactKey: Guid(a84aaabd746b9bd43a4c62a0fb02fedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/Welcome Home.unity using Guid(a84aaabd746b9bd43a4c62a0fb02fedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548017aabfca6eb553b70865fd67da83') in 0.014132 seconds
+  Import took 0.016486 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001363 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\GithHub\Le-Grande-Finale-\Archeological Expedition\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\GithHub\Le-Grande-Finale-\Archeological Expedition\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+Received Import Request.
+  Time since last request: 9.155048 seconds.
+  path: Assets/_MyScenes/You're Fired!.unity
+  artifactKey: Guid(32cc8cdd9d7fcf442b6a4e85d9feee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/You're Fired!.unity using Guid(32cc8cdd9d7fcf442b6a4e85d9feee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f029bfe2015557a45898fc7807c3e') in 0.014926 seconds
+  Import took 0.017307 seconds .
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/_MyScenes/You're Fired!.unity
+  artifactKey: Guid(32cc8cdd9d7fcf442b6a4e85d9feee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/You're Fired!.unity using Guid(32cc8cdd9d7fcf442b6a4e85d9feee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f029bfe2015557a45898fc7807c3e') in 0.010627 seconds
+  Import took 0.012734 seconds .
 
-Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.8 MB.
+========================================================================
+Received Import Request.
+  Time since last request: 10.287591 seconds.
+  path: Assets/_MyScenes/Game Over!.unity
+  artifactKey: Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/Game Over!.unity using Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f662ce897e74599fb9ea42412e7885') in 0.014432 seconds
+  Import took 0.016775 seconds .
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2133.
-Total: 1.856200 ms (FindLiveObjects: 0.183400 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.527900 ms  DeleteObjects: 0.092700 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 41.240564 seconds.
+  path: Assets/_MyScenes/Menu.unity
+  artifactKey: Guid(dc6b53ea565741448a3706a91bcd27d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/Menu.unity using Guid(dc6b53ea565741448a3706a91bcd27d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d884378041cf08f155192c604d48f90') in 0.013539 seconds
+  Import took 0.028185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.017391 seconds.
+  path: Assets/_MyScenes/RoughCutDemo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/RoughCutDemo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21712861a3e1b5452247e7b09bc993d') in 0.016320 seconds
+  Import took 0.018776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.951120 seconds.
+  path: Assets/_MyScenes/Game Over!.unity
+  artifactKey: Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/Game Over!.unity using Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926044d9a4f78c57c167d8b03f196d4d') in 0.013933 seconds
+  Import took 0.016448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.119408 seconds.
+  path: Assets/_MyScenes/You're Fired!.unity
+  artifactKey: Guid(32cc8cdd9d7fcf442b6a4e85d9feee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/You're Fired!.unity using Guid(32cc8cdd9d7fcf442b6a4e85d9feee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9247b4f9f5a05b8ac28e64b50751a65c') in 0.011895 seconds
+  Import took 0.014540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.499909 seconds.
+  path: Assets/Thirdparty/Gridbox Prototype Materials/Resources/ProBuilder Data
+  artifactKey: Guid(75b6dac83d69dbd43b8515fcd889129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Gridbox Prototype Materials/Resources/ProBuilder Data using Guid(75b6dac83d69dbd43b8515fcd889129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb285cbace7da8a9eab848e16f7d8fb') in 0.016537 seconds
+  Import took 0.019012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363343 seconds.
+  path: Assets/Thirdparty/Gridbox Prototype Materials/Resources/ProBuilder Data/Prototype Materials.asset
+  artifactKey: Guid(bf95d34ab83b5ac40911f9e77a91a236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Gridbox Prototype Materials/Resources/ProBuilder Data/Prototype Materials.asset using Guid(bf95d34ab83b5ac40911f9e77a91a236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad283fc47cea00bdf125cc485f43460b') in 0.039598 seconds
+  Import took 0.041865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.619182 seconds.
+  path: Assets/_MyPrefabs/Player.prefab
+  artifactKey: Guid(06a080f818f7337409443e2dcef26798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyPrefabs/Player.prefab using Guid(06a080f818f7337409443e2dcef26798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f33228d0127296bd5d9074f96ba6018') in 0.050007 seconds
+  Import took 0.060554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.848678 seconds.
+  path: Assets/_MyPrefabs/XR Rig.prefab
+  artifactKey: Guid(06a080f818f7337409443e2dcef26798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyPrefabs/XR Rig.prefab using Guid(06a080f818f7337409443e2dcef26798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e706d8d2348db34e67f77aed83f4d8') in 0.020611 seconds
+  Import took 0.024534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.057252 seconds.
+  path: Assets/_MyPrefabs/XR Rig.prefab
+  artifactKey: Guid(06a080f818f7337409443e2dcef26798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyPrefabs/XR Rig.prefab using Guid(06a080f818f7337409443e2dcef26798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e116ff544747ecb9bfbb8a005172c0') in 0.014049 seconds
+  Import took 0.016795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.495253 seconds.
+  path: Assets/_MyPrefabs/Player.prefab
+  artifactKey: Guid(06a080f818f7337409443e2dcef26798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyPrefabs/Player.prefab using Guid(06a080f818f7337409443e2dcef26798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1451e306d542552b444b059d9af57d20') in 0.026065 seconds
+  Import took 0.028707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.587594 seconds.
+  path: Assets/_MyScenes/Game Over!.unity
+  artifactKey: Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/Game Over!.unity using Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd195f0e34ca556c33cbff191778ca45') in 0.012676 seconds
+  Import took 0.015132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 406.355594 seconds.
+  path: Assets/_MyScenes/Welcome Home.unity
+  artifactKey: Guid(a84aaabd746b9bd43a4c62a0fb02fedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/Welcome Home.unity using Guid(a84aaabd746b9bd43a4c62a0fb02fedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcda339d7a29ffe57d1cc0a3bef589f') in 0.012653 seconds
+  Import took 0.015301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.043702 seconds.
+  path: Assets/_MyScenes/Game Over!.unity
+  artifactKey: Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/Game Over!.unity using Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6883644069b255e71bf38f4efbef04') in 0.011562 seconds
+  Import took 0.014020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.093025 seconds.
+  path: Assets/_MyPrefabs/Canvas.prefab
+  artifactKey: Guid(7355f55052d9f7048bf7f299a6daecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyPrefabs/Canvas.prefab using Guid(7355f55052d9f7048bf7f299a6daecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c990d1827a6abc3cdc04ffeb60da0b32') in 0.029045 seconds
+  Import took 0.031480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.291812 seconds.
+  path: Assets/_MyScenes/Game Over!.unity
+  artifactKey: Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MyScenes/Game Over!.unity using Guid(88952a58b9d6e9c45a51adcd2c24ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d68d510643ce4b07d5282d964e158d6') in 0.039482 seconds
+  Import took 0.042362 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
